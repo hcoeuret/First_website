@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Css grids
+    </title>
+    <style>
+      .grid1{
+        display: grid;
+        grid-template-columns: 200px 75px;
+      }
+
+      .grid2{
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;
+      }
+
+      .grid3{
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 10px;
+        column-gap: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid1">
+      <div style="background-color: lightblue;">200px</div>
+      <div style="background-color: lightpink;">75px</div>
+    </div>
+    <div class="grid2">
+      <div style="background-color: lightblue;">200px</div>
+      <div style="background-color: lightpink;">75px</div>
+      <div style="background-color: lightblue;">200px</div>
+    </div>
+    <div class="grid3">
+      <div style="background-color: lightblue;">200px</div>
+      <div style="background-color: lightpink;">75px</div>
+      <div style="background-color: lightblue;">200px</div>
+      <div style="background-color: lightblue;">200px</div>
+      <div style="background-color: lightblue;">200px</div>
+      <div style="background-color: lightpink;">75px</div>
+      <div style="background-color: lightblue;">200px</div>
+      <div style="background-color: lightblue;">200px</div>
+    </div>
+  </body>
+</html>
