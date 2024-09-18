@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>12g</title>
+    <style>
+      .main-flexbox{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .card-flexbox{
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+      }
+      .profile-pic{
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        object-fit: cover;
+        object-position: center;
+        margin-right: 10px;
+      }
+      .text-grid{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 100px;
+      }
+      .name{
+        font-weight: 800;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+      }
+      .attribute{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: grey;
+      }
+      .status{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        color: grey;
+      }
+      .follow-button{
+        color: white;
+        background-color: rgb(0, 110, 255);
+        border: none;
+        border-radius: 3px;
+        font-size: 12px;
+        padding: 5px 10px 5px 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="main-flexbox">
+      <div class="card-flexbox">
+        <img class="profile-pic" src="cat.jpg">
+        <div class="text-grid">
+          <div class="name">Oliver</div>
+          <div class="attribute">the cat</div>
+          <div class="status">Popular</div>
+        </div>
+        <button class="follow-button">Follow</button>
+      </div>
+      <div class="card-flexbox">
+        <img class="profile-pic" src="cat2.jpeg">
+        <div class="text-grid">
+          <div class="name">Mimi</div>
+          <div class="attribute">Cute cat</div>
+          <div class="status">Popular</div>
+        </div>
+        <button class="follow-button">Follow</button>
+      </div>
+      <div class="card-flexbox">
+        <img class="profile-pic" src="cat3.jpeg">
+        <div class="text-grid">
+          <div class="name">Rex</div>
+          <div class="attribute">Cool cat</div>
+          <div class="status">Popular</div>
+        </div>
+        <button class="follow-button">Follow</button>
+      </div>
+    </div>
+  </body>
+</html>

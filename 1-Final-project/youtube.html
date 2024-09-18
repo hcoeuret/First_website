@@ -5,61 +5,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-      p{
-        font-family: Roboto, Arial;
-        margin: 0 0 0 0;
-      }
-      .thumbnail{
-        width: 100%;
-      }
-
-      .thumbnail-row{
-        margin-bottom: 12px;
-      }
-      .searchbar{
-        display: block;
-      }
-
-      .thumbnail-grid{
-       display: grid;
-       grid-template-columns: 1fr 1fr 1fr;
-       column-gap: 20px;
-       row-gap: 20px; 
-      }
-
-      .video-info-grid{
-        display: grid;
-        grid-template-columns: 50px 1fr;
-      }
-
-      .profile-picture{
-        width: 40px;
-        border-radius: 50%;
-      }
-      .video-title{
-        margin-top: 0;
-        font-size: 14px;
-        font-weight: 600;
-        line-height: 20px;
-        margin-bottom: 14px;
-      }
-      .video-author,.video-stats{
-        font-size: 12px;
-        color: rgb(97, 97, 97);
-      }
-
-      .video-author{
-       margin-bottom: 5px; 
-      }
-
-      
-      
-    </style>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
   </head>
-  <body style="padding-bottom: 1000px;">
-    <input class="searchbar" type="text" placeholder="Search"> 
 
+  <body style="padding-bottom: 1000px;">
+ 
+    <div class="header-flex">
+      <div class="header-left">1</div>
+      <div class="header-center">
+        <input class="searchbar" type="text" placeholder="Search">
+      </div>
+      <div class="header-right">3</div>
+    </div>
     <div class="thumbnail-grid">
       <div class ="container1">
         <div class="thumbnail-row">
