@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>13c</title>
+    <style>
+      div{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .main-div{
+        width: 400px;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+        padding-bottom: 30px;
+      }
+      .title-div{
+        font-size: 13px;
+        font-weight: 400;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(85, 85, 85);
+        margin-left: 12px;
+        padding-top: 6px;
+        
+      }
+      .card-div{
+        display: flex;
+        flex-direction: row;
+        margin-top: 18px;
+        align-items: center;
+        margin-left: 15px;
+      }
+      .profile-pic{
+        height: 40px;
+        width: 40px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 20px;
+      }
+      .text-div{
+        flex:1;
+        margin-left: 10px;
+      }
+      .title-flexbox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right:10px
+      }
+      .title{
+        font-weight:900;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .time{
+        font-size: 13px;
+        color: grey;
+      }
+      .recipient{
+        font-weight: bold;
+        font-size: 14px;
+        margin-top: 5px;
+        margin-bottom: 2px;
+      }
+      .description{
+        font-size: 14px;
+        color: grey;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="title-div">ALL INBOXES</div>
+      <div class="card-div">
+        <img class="profile-pic" src="cat.jpg">
+        <div class="text-div">
+          <div class="title-flexbox">
+            <div class="title">Chewy Promotions</div>
+            <div class="time">4:58 PM</div>
+          </div>
+          <div class="recipient">Biggest sales of the year</div>
+          <div class="description">Hey there! We're writing to tell you about our...</div>
+        </div>
+      </div>
+      <div class="card-div">
+        <img class="profile-pic" src="cat.jpg">
+        <div class="text-div">
+          <div class="title-flexbox">
+            <div class="title">Chewy Promotions</div>
+            <div class="time">4:58 PM</div>
+          </div>
+          <div class="recipient">Biggest sales of the year</div>
+          <div class="description">Hey there! We're writing to tell you about our...</div>
+        </div>
+      </div>
+      <div class="card-div">
+        <img class="profile-pic" src="cat.jpg">
+        <div class="text-div">
+          <div class="title-flexbox">
+            <div class="title">Chewy Promotions</div>
+            <div class="time">4:58 PM</div>
+          </div>
+          <div class="recipient">Biggest sales of the year</div>
+          <div class="description">Hey there! We're writing to tell you about our...</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
