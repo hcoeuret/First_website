@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>14ef</title>
+    <style>
+      body{
+        height: 3000px;
+      }
+      div{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .header-div{
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        height: 30px;
+        top: 0;
+        right: 0;
+        left: 0;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: rgb(236, 236, 236);
+      }
+      .profile-div{
+        display: flex;
+        align-items: center;
+
+      }
+      .profile-pic{
+        object-fit: cover;
+        object-position: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 25px;
+        margin-right: 10px;
+      }
+      .add-friend-button, .message-button{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        background-color: rgb(43, 115, 248);
+        color: white;
+        padding: 6px 5px 6px 5px;
+        border:none;
+        border-radius: 5px;
+        font-size: 9px;
+        margin-right: 5px;
+      }
+      .message-button{
+        background-color: rgb(230, 229, 229);
+        color: black;
+      }
+      .name{
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .profile-pic-bar{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(37, 36, 36);
+        position: fixed;
+        top: 40px;
+        left: 0px;
+        bottom: 0px;
+        padding-left: 7px;
+        padding-right: 7px;
+      }
+
+      .discord-profile-pic{
+        object-fit: cover;
+        object-position: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 25px;
+        margin-top: 7px;
+      }
+
+      .text-bar{
+        position: fixed;
+        top: 40px;
+        left: 54px;
+        bottom: 0;
+        background-color: rgb(58, 58, 58);
+        padding: 10px 10px 0px 10px;
+        width: 130px;
+      }
+      .title-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .info{
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+      }
+      .plus{
+        color: white;
+        font-size: 15px;
+      }
+      .channel-text{
+        color: grey;
+        margin-top: 10px;
+        font-size: 12px;
+        font-weight: bold;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="header-div">
+      <div class="profile-div">
+        <img class="profile-pic" src="cat.jpg">
+        <p class="name">Oliver Cat</p>
+      </div>
+      <div class="profile-div">
+      <button class="add-friend-button">Add Friend</button>
+      <button class="message-button">Message</button>
+      </div>
+    </div>
+      <div class="profile-pic-bar">
+        <img class="discord-profile-pic" src="cat.jpg">
+        <img class="discord-profile-pic" src="cat2.jpeg">
+        <img class="discord-profile-pic" src="cat3.jpeg">
+      </div>
+      <div class="text-bar">
+        <div class="title-flex">
+          <div class="info">INFO</div>
+          <div class="plus">+</div>
+        </div>
+        <div class="channel-text"># new-videos</div>
+        <div class="channel-text"># updates</div>
+        <div class="channel-text"># faq</div>
+      </div>
+  </body>
+</html>
