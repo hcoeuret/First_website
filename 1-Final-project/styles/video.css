@@ -3,7 +3,7 @@
 }
 
 .thumbnail-row{
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   position :relative;
 }
 .video-time{
@@ -32,7 +32,7 @@
 }
 
 .profile-picture{
-  width: 40px;
+  width: 35px;
   border-radius: 50%;
 }
 .video-title{
@@ -40,7 +40,7 @@
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
-  margin-bottom: 14px;
+  margin-bottom: 12px;
 }
 .video-author,.video-stats{
   font-size: 12px;
