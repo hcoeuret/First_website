@@ -35,6 +35,54 @@
   width: 35px;
   border-radius: 50%;
 }
+
+.profile-picture-container{
+  display: inline-block;
+  position: relative;
+}
+
+.profile-picture-container:hover .profile-picture-tooltip{
+  opacity: 1;
+}
+
+.profile-picture-tooltip{
+  position: absolute;
+  display: flex;
+  height: 75px;
+  padding-right: 30px;
+  background-color: white;
+  align-items: center;
+  z-index: 300;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.30);
+  border-radius: 3px;
+
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.profile-picture-tooltip-picture{
+  object-fit: cover;
+  object-position: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 24px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.profile-picture-tooltip-name{
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 3px;
+  white-space: nowrap;
+}
+.profile-picture-tooltip-subscribers{
+  font-size: 13px;
+  color: rgb(97, 97, 97);
+  white-space: nowrap;
+}
+
 .video-title{
   margin-top: 0;
   font-size: 14px;
@@ -42,6 +90,12 @@
   line-height: 20px;
   margin-bottom: 12px;
 }
+
+.video-link{
+  text-decoration: none;
+  color: black;
+}
+
 .video-author,.video-stats{
   font-size: 12px;
   color: rgb(97, 97, 97);
